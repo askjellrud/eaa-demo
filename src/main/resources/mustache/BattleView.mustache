@@ -1,0 +1,33 @@
+{{#model}}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hack Battle 2016</title>
+        <link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/battle.css" />
+    </head>
+    <body>
+        <script src="/assets/vendor/jquery-1.10.2.js"></script>
+        <script src="/assets/vendor/bootstrap-3.2.0.js"></script>
+        <script src="https://api.bimsync.com/1.0/js/viewer.js"></script>
+        <script src="/assets/battle.js"></script>
+        <script src="/assets/context.js"></script>
+        <script src="/assets/models.js"></script>
+
+        <br><br>
+
+        <div id="bimsync" data-access-token="{{accessToken}}" data-project-id="ccfa3a2434c94cf189c280751ff94e5b"></div>
+        <div class="viewer-container col-sm-9" >
+          
+            <div id="viewer" class="viewer col-sm-12"
+                data-viewer="webgl"
+                data-url="https://api.bimsync.com/1.0/viewer/access?token={{viewerAccessToken}}"
+                data-enable-keyboard=true
+                data-ui=true></div>
+        </div>
+   </body>
+</html>
+{{/model}}

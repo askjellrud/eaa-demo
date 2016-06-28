@@ -1,0 +1,87 @@
+
+.viewer-container {
+	width: 100%;
+}
+
+.device-box {
+  position: absolute;
+  right: 15px;
+  z-index: 100;
+  background-color: white;
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.save-energy-box, .energy-alert-box, .sleep-alert-box, .light-info-box, .power-wall-info-box, .washing-machine-info-box, .electric-fault-box {
+  position: absolute;
+  right: 15px;
+  z-index: 100;
+  background-color: white;
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.device-box .device-rgb {
+  min-width: 10px;
+  min-height: 10px;
+  display: inline-block;
+}
+.loading-box {
+	position: absolute;
+  left: 15px;
+  z-index: 100;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.viewer-container {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    right: 0px;
+    bottom: 60px;
+}
+.viewer {
+	padding: 0px !important;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+
+    background: -moz-linear-gradient(top,  rgba(177,208,249,1) 0%, rgba(177,208,249,0.85) 23%, rgba(211,224,237,0.67) 50%, rgba(171,201,165,0.5) 76%, rgba(171,201,165,0.35) 99%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(177,208,249,1)), color-stop(23%,rgba(177,208,249,0.85)), color-stop(50%,rgba(211,224,237,0.67)), color-stop(76%,rgba(171,201,165,0.5)), color-stop(99%,rgba(171,201,165,0.35))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(177,208,249,1) 0%,rgba(177,208,249,0.85) 23%,rgba(211,224,237,0.67) 50%,rgba(171,201,165,0.5) 76%,rgba(171,201,165,0.35) 99%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(177,208,249,1) 0%,rgba(177,208,249,0.85) 23%,rgba(211,224,237,0.67) 50%,rgba(171,201,165,0.5) 76%,rgba(171,201,165,0.35) 99%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(177,208,249,1) 0%,rgba(177,208,249,0.85) 23%,rgba(211,224,237,0.67) 50%,rgba(171,201,165,0.5) 76%,rgba(171,201,165,0.35) 99%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(177,208,249,1) 0%,rgba(177,208,249,0.85) 23%,rgba(211,224,237,0.67) 50%,rgba(171,201,165,0.5) 76%,rgba(171,201,165,0.35) 99%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1d0f9', endColorstr='#59abc9a5',GradientType=0 ); /* IE6-9 */
+}
+
+.header {
+	margin-left: 20px;
+	font-size : 2em;
+}
+
+.bimsync-logo {
+   height: 40px;
+   float: right;
+}
+
+.bimsync-icon {
+   height: 30px;
+}
+
+.footer {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 20px;
+    left: 0px;
+    right: 0px;
+}
+
+canvas {
+	width: 100%
+}
